@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online-Terminbuchung — Lady Nails Berlin (Konzept-Demo)</title>
+<meta name="description" content="Konzept-Demo der Online-Terminbuchung für Lady Nails Berlin-Friedrichshain: Leistung wählen, Slot klicken, Daten eingeben. Kein echter Buchungsvorgang — Demo-Prototyp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-in">
+    <a class="logo-sticker" href="../" aria-label="Lady Nails – Startseite"><b>LN</b><small>NAILS</small></a>
+    <a class="brand" href="../"><b><span data-biz>Lady Nails</span></b><small>NAGELSTUDIO</small></a>
+    <span class="sticker sticker--magenta fhain-badge rot-r">BERLIN F'HAIN</span>
+    <nav class="main-nav" aria-label="Hauptnavigation">
+      <a href="../">Start</a>
+      <a href="../leistungen/">Leistungen</a>
+      <a href="../galerie/">Galerie</a>
+      <a href="./" class="active" aria-current="page">Termin</a>
+      <a href="../bewertungen/">Bewertungen</a>
+      <a href="../ueber-uns/">Über uns</a>
+      <a href="../kontakt/">Kontakt</a>
+    </nav>
+    <a class="btn btn--lime btn--small header-cta" href="./">Termin sichern</a>
+  </div>
+</header>
+
+<main>
+<div class="audit" role="note">
+  <div class="wrap">
+    <b>⚠️ AUDIT NOTICE</b>
+    <span class="mono">KONZEPT-DEMO // INTERAKTIVER LOOKBOOK-PROTOTYP</span>
+    <span class="mono">Dies ist ein interaktiver Design-Prototyp für Lady Nails Berlin-Friedrichshain. Keine echten Termine möglich.</span>
+    <a class="mono" style="font-weight:700" href="tel:+493026078619">+49(0)30 26078619</a>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="wrap hero-in">
+    <p class="kicker">// TERMIN-TERMINAL 01.0 / RAW-GELÄNDE NEIGHBORHOOD</p>
+    <h1 class="h-display" aria-label="Online-Terminbuchung"><span class="rise"><span style="--d:0ms">ONLINE-</span></span><span class="rise"><span style="--d:120ms">TERMIN-</span></span><span class="rise"><span style="--d:240ms"><span class="on-lime">BUCHUNG</span></span></span></h1>
+    <p class="hero-sub">Keine Warteschleife. Keine Anrufe mitten im Feierabend. Konfiguriere dein Zeitfenster direkt am Terminal — laut, schnell und ohne Reue.</p>
+    <div class="hero-badges" style="margin-top:24px">
+      <span class="sticker sticker--dark">93 / PETERSBURGER STR. 93 / BERLIN FRIEDRICHSHAIN</span>
+    </div>
+    <div class="phases">
+      <div class="phase phase--active"><p class="pn">01 PHASE EINS</p><h3>LEISTUNG WÄHLEN</h3></div>
+      <div class="phase"><p class="pn">02 PHASE ZWEI</p><h3>DATUM &amp; ZEIT</h3></div>
+      <div class="phase"><p class="pn">03 PHASE DREI</p><h3>DETAILS &amp; ABSCHLUSS</h3></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="book-layout">
+      <div>
+        <div class="step-block" style="margin-top:0">
+          <p class="kicker kicker--lime">SCHRITT 1/3</p>
+          <h2 class="h2">DEIN NAIL-UPGRADE WÄHLEN</h2>
+          <p class="mono" style="color:var(--ink40);margin-top:10px">// MULTIPLE STYLES</p>
+          <div class="svc-grid" role="group" aria-label="Leistung wählen">
+            <button class="svc" data-svc="club" aria-pressed="true">
+              <span class="check" aria-hidden="true">✓</span>
+              <h4>SIGNATURE CLUB SET</h4><p class="sub">CHROME &amp; 3D ART ✓</p>
+              <p>Flüssigmetall-Chromes, skulpturale 3D-Gel-Tropfen, Y2K-Spikes &amp; maximaler Cyber-Grip für das RAW-Wochenende.</p>
+              <div class="meta"><span class="p">70 € <span class="muster">MUSTER</span></span><span>~ 90 MIN</span></div>
+            </button>
+            <button class="svc" data-svc="acid" aria-pressed="false">
+              <span class="check" aria-hidden="true">✓</span>
+              <h4>GRAPHIC MINIMAL</h4><p class="sub">ACID MINIMAL / FRENCH</p>
+              <p>Präzise neon-grüne &amp; schwarze Micro-Lines, invertierte Halbmonde oder dekonstruierte French-Tips auf Naturnagel.</p>
+              <div class="meta"><span class="p">60 € <span class="muster">MUSTER</span></span><span>~ 75 MIN</span></div>
+            </button>
+            <button class="svc" data-svc="refill" aria-pressed="false">
+              <span class="check" aria-hidden="true">✓</span>
+              <h4>REGULAR RETOUCH</h4><p class="sub">GEL REFILL / AUFFÜLLEN</p>
+              <p>Lückenloses Auffüllen von Rauswuchs, Statik-Korrektur des Apex und frischer Hochglanz- oder Ultra-Matt-Look.</p>
+              <div class="meta"><span class="p">42 € <span class="muster">MUSTER</span></span><span>~ 60 MIN</span></div>
+            </button>
+            <button class="svc" data-svc="pflege" aria-pressed="false">
+              <span class="check" aria-hidden="true">✓</span>
+              <h4>APPARATIVE PFLEGE</h4><p class="sub">RUSSIAN CLEANUP</p>
+              <p>Radikal saubere Fräser-Nagelhautentfernung, Formgebung nach Architektur &amp; stärkendes Pflege-Finish ohne Farbe.</p>
+              <div class="meta"><span class="p">35 € <span class="muster">MUSTER</span></span><span>~ 45 MIN</span></div>
+            </button>
+          </div>
+        </div>
+
+        <div class="step-block">
+          <p class="kicker kicker--lime">SCHRITT 2/3</p>
+          <h2 class="h2">SLOT &amp; TAG RESERVIEREN</h2>
+          <p class="mono" style="color:var(--ink40);margin-top:10px">// KALENDER-WOCHE AKTUELL</p>
+          <div class="day-row" role="group" aria-label="Tag wählen">
+            <button class="day" data-day="MO 24" aria-pressed="false">MO<b>24</b></button>
+            <button class="day" data-day="DI 25" aria-pressed="false">DI<b>25</b></button>
+            <button class="day" data-day="MI 26" aria-pressed="false">MI<b>26</b></button>
+            <button class="day" data-day="DO 27" aria-pressed="false">DO<b>27</b></button>
+            <button class="day" data-day="FR 28" aria-pressed="true">FR<b>28</b></button>
+            <button class="day" data-day="SA 01" aria-pressed="false">SA<b>01</b></button>
+          </div>
+          <p class="mono" style="color:var(--ink60);margin:24px 0 4px">VERFÜGBARE TIME-SLOTS AM GEWÄHLTEN TAG:</p>
+          <div class="slot-row" role="group" aria-label="Uhrzeit wählen">
+            <button class="slot" data-slot="11:00" aria-pressed="false">11:00<small>FREI</small></button>
+            <button class="slot" data-slot="13:30" aria-pressed="false">13:30<small>FREI</small></button>
+            <button class="slot" data-slot="15:00" disabled aria-disabled="true">15:00<small>BELEGT</small></button>
+            <button class="slot" data-slot="17:15" aria-pressed="true">17:15<small>GEWÄHLT</small></button>
+            <button class="slot" data-slot="19:00" aria-pressed="false">19:00<small>FREI</small></button>
+          </div>
+        </div>
+
+        <div class="step-block">
+          <p class="kicker kicker--lime">SCHRITT 3/3</p>
+          <h2 class="h2">DEIN IDENTITY CHECK-IN</h2>
+          <form id="booking-form" data-demo data-demo-msg="TERMINANFRAGE REGISTRIERT (DEMO) //" style="margin-top:28px">
+            <div class="field">
+              <label for="bk-name">NAME / MONIKER *</label>
+              <input id="bk-name" name="name" type="text" placeholder="Z.B. ELENA V." required autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="bk-phone">MOBILNUMMER (FÜR SMS-CONFIRM) *</label>
+              <input id="bk-phone" name="phone" type="tel" placeholder="017X XXXXXXX" required autocomplete="tel">
+            </div>
+            <div class="field">
+              <label for="bk-mail">E-MAIL ADRESSE *</label>
+              <input id="bk-mail" name="email" type="email" placeholder="DEINE@EMAIL.DE" required autocomplete="email">
+            </div>
+            <div class="field">
+              <label for="bk-notes">STYLE-WÜNSCHE &amp; INSPIRATION / OPTIONAL</label>
+              <textarea id="bk-notes" name="notes" placeholder="z.B. Nagellänge Almond M, Chrome-Finish, oder Pinterest-Link für 3D-Jelly-Nails..."></textarea>
+            </div>
+            <label class="checkline">
+              <input type="checkbox" required>
+              <span>Ich verstehe, dass dies ein Demo-Buchungssystem für Lady Nails Berlin ist. Es wird kein echter Studio-Slot blockiert. Vor Ort oder bei akuten Terminen bitte direkt unter +49(0)30 26078619.</span>
+            </label>
+            <button class="btn btn--lime" type="submit" style="width:100%">TERMIN ANFRAGEN →</button>
+            <div class="form-result" role="status"></div>
+            <p class="demo-note">DEMO-TRIGGER // ES ENTSTEHT KEINE VERPFLICHTUNG. DIESES FORMULAR SENDET NICHTS AB.</p>
+          </form>
+        </div>
+
+        <div class="step-block">
+          <p class="kicker">// FAQ ACCORDION</p>
+          <h2 class="h2">WICHTIGE FRAGEN ZUM TERMIN</h2>
+          <p class="mono" style="color:var(--ink40);margin-top:10px">TRANSPARENZ &amp; VERLÄSSLICHKEIT</p>
+          <div class="faq">
+            <div class="faq-item">
+              <button class="faq-q" aria-expanded="false"><span><span class="no">01 // SHORT NOTICE</span><span class="qt">WIE KURZFRISTIG KANN ICH BUCHEN?</span></span><span class="pm" aria-hidden="true">+</span></button>
+              <div class="faq-a"><p>Spontane Walk-Ins sind im Salon an der Petersburger Straße je nach Auslastung möglich. Für aufwendige Nail-Art (Chrome, Skulpturen, Überlänge) empfehlen wir 2–4 Tage Vorlaufzeit.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q" aria-expanded="false"><span><span class="no">02 // CANCELLATION</span><span class="qt">KANN ICH ABSAGEN ODER VERSCHIEBEN?</span></span><span class="pm" aria-hidden="true">+</span></button>
+              <div class="faq-a"><p>Ja! Das Leben in Friedrichshain ist unberechenbar. Bitte gib uns mindestens 12 Stunden vor Beginn kurz telefonisch Bescheid, damit jemand von der Warteliste nachrücken kann.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q" aria-expanded="false"><span><span class="no">03 // PROTOTYPE STATUS</span><span class="qt">WAS PASSIERT NACH DEM KLICK?</span></span><span class="pm" aria-hidden="true">+</span></button>
+              <div class="faq-a"><p>Dieser Lookbook-Auftritt dient der visuellen Konzeption. Es werden keine Daten an externe Buchungsportale übertragen. Nutze die direkte Telefonnummer für eine verbindliche Reservierung.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="boarding" id="boarding-pass" aria-label="Buchungsübersicht (Demo)">
+        <div class="boarding__head"><b>BOARDING PASS</b><span class="mono">BERLIN-F'HAIN</span></div>
+        <div class="boarding__body">
+          <div class="bp-row"><p class="k">LADY NAILS BOOKING</p><p class="v">PETERSBURGER STR. 93 · 10247</p></div>
+          <div class="bp-row"><p class="k">GEWÄHLTER SERVICE</p><p class="v" id="bp-service">SIGNATURE CLUB SET</p><p class="mono" id="bp-dur" style="color:var(--ink60)">Dauer: ca. 90 Min</p></div>
+          <div class="bp-perf" aria-hidden="true"></div>
+          <div class="bp-row"><p class="k">DATUM</p><p class="v" id="bp-day">FR 28</p></div>
+          <div class="bp-row"><p class="k">ZEITFENSTER</p><p class="v v--lime" id="bp-slot">17:15 Uhr</p></div>
+          <div class="bp-row"><p class="k">STUDIO-STANDORT</p><p class="v">Lady Nails — F'hain</p><p class="mono" style="color:var(--ink60)">U5 FRANKFURTER TOR / TRAM M10</p></div>
+          <div class="bp-perf" aria-hidden="true"></div>
+          <div class="bp-total"><div><p class="k mono" style="font-size:10px;letter-spacing:.2em;color:var(--ink40)">MUSTERPREIS VOR ORT</p><p class="mono" style="font-size:10px;color:var(--ink60)">BAR ODER EC VOR ORT</p></div><p class="t" id="bp-price">70 €</p></div>
+        </div>
+        <div class="boarding__foot">
+          <a class="btn btn--lime" href="#booking-form" style="width:100%;text-align:center">TERMIN ANFRAGEN →</a>
+          <p class="demo-note">DEMO-TRIGGER // ES ENTSTEHT KEINE VERPFLICHTUNG</p>
+        </div>
+      </aside>
+    </div>
+
+    <div class="panel" style="margin-top:56px;text-align:center">
+      <p class="kicker kicker--lime" style="margin-bottom:10px">📞 LIEBER DIREKT SPRECHEN?</p>
+      <a class="btn btn--magenta" href="tel:+493026078619">+49 (0)30 26078619</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<div class="demo-bar" role="note"><div class="wrap">
+  <span class="mono">MUSTER/DEMO MODUS</span>
+  <span class="mono">Konzept-Demo von Tiyan Digital — nicht affiliiert</span>
+  <span class="mono">Alle Preise Musterpreise · Alle Bewertungen Sample-Platzhalter</span>
+</div></div>
+<footer class="site-footer">
+  <div class="wrap"><div class="footer-grid">
+    <div class="footer-brand">
+      <b><span data-biz>Lady Nails</span></b><br>
+      <span class="sticker sticker--lime rot-l2">STUDIO DEMO</span>
+      <p>Nagelstudio in Berlin-Friedrichshain. Diese Buchungsstrecke ist ein interaktiver Prototyp als Konzept-Demo — es werden keine echten Termine vergeben.</p>
+    </div>
+    <div class="footer-col">
+      <h5>// Location &amp; Contact</h5>
+      <p><span data-biz>Lady Nails</span> — Nagelstudio<br>Petersburger Straße 93<br>10247 Berlin (Friedrichshain)</p>
+      <a href="tel:+493026078619">Tel: +49(0)30 26078619</a>
+      <a href="tel:+4915238423966">Mobil: 015238423966</a>
+      <a href="mailto:lindaquyen86@gmail.com">E-Mail: lindaquyen86@gmail.com</a>
+      <p>U5 Frankfurter Tor / Tram M10</p>
+    </div>
+    <div class="footer-col">
+      <h5>// Sitemap Explorer</h5>
+      <ul>
+        <li><a href="../">▸ Start</a></li>
+        <li><a href="../leistungen/">▸ Leistungen</a></li>
+        <li><a href="../galerie/">▸ Galerie</a></li>
+        <li><a href="./">▸ Termin buchen</a></li>
+        <li><a href="../bewertungen/">▸ Bewertungen</a></li>
+        <li><a href="../ueber-uns/">▸ Über uns</a></li>
+        <li><a href="../kontakt/">▸ Kontakt</a></li>
+      </ul>
+    </div>
+  </div></div>
+  <div class="footer-bottom"><div class="wrap">
+    <span class="mono">© 2026 <span data-biz>Lady Nails</span> Berlin-Friedrichshain. Alle Rechte vorbehalten.</span>
+    <span class="mono">MUSTER/DEMO MODUS • RAW-KULTUR VIBE</span>
+  </div></div>
+</footer>
+<script src="../assets/app.js"></script>
+</body>
+</html>
